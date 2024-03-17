@@ -1,0 +1,12 @@
+.yellowsec{
+    background-image: url("./components/images/dancegirl.jpg");
+    padding-bottom: 1%;
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+    /* background: linear-gradient(to top, #ffffff 2%, #ff8c20); */
+}
+
+.whitesec{
+background-color: #ffffff;
+}

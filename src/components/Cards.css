@@ -1,0 +1,82 @@
+.cardgrid {
+  display: grid;
+  margin: 10px auto;
+  grid-template-columns: 30vw 30vw 30vw;
+  width: 70%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.card1 {
+  /* background-color: blueviolet; */
+  height: 60vh;
+  margin: 10% 10%;
+  box-shadow: 0px 5px 5px 2px #242424;
+  border-radius: 5px;
+}
+.cardtitle{
+  font-weight: bold;
+  margin-top: 5%;
+  margin: 0 auto;
+
+
+}
+
+.cardprice{
+  display: flex;
+  font-weight: bold;
+  margin-top: 5%;
+  justify-content: center;
+  
+}
+
+.cardimage{
+  /* background-image: url("./images/shirt1.png"); */
+  background-size: cover;
+  /* background-color: #6a6aff; */
+  height: 15vw;
+  width: 15vw;
+  margin: 2vw auto;
+}
+
+.cardbuy{
+  background-color: #6a6aff;
+  width: 70px;
+  height:30px ;
+  margin: 3% auto;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+
+  
+}
+
+.card1:hover{
+  transition: height 0.2s ease-in-out, margin 0.5s ease; 
+  margin-bottom: 20%;
+}
+
+@media (max-width:600px) {
+  .cardgrid {
+    display: grid;
+    margin: 10px auto;
+    grid-template-columns: 30vw;
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .card1 {
+    /* background-color: blueviolet; */
+    height: 40vh;
+    width: 50vw;
+    box-shadow: 0px 5px 5px 2px #242424;
+    border-radius: 5px;
+    margin-left: -30%;
+  }
+  
+  
+}

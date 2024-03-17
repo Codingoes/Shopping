@@ -1,0 +1,82 @@
+/* ShoppingApp.css */
+
+.shopping-app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    display: flex;
+  }
+
+.tri1{
+  background-color: black;
+  height: 5vh;
+  width: 3%;
+  transform: skew(45deg);
+  position: relative;
+ left: 160px;
+
+
+}
+
+.shopapp-nav{
+  background-color: black;
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5vh;
+  font-size: .8em;
+  width: 70%;
+  margin: 0 auto;
+  box-shadow: 5px 5px 10px black;
+  
+
+}
+
+.tri2{
+  background-color: black;
+  height: 5vh;
+  width: 3%;
+  position: relative;
+  right: 160px;
+  transform: skew(-45deg);
+}
+
+@media (max-width:600px) {
+
+  .shopapp-nav{
+    background-color: black;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vh;
+    font-size: .8em;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 2px;
+    box-shadow: 0px 5px 10px black;
+  }
+  
+.tri1{
+  background-color: black;
+  height: 5vh;
+  width: 3%;
+  transform: skew(45deg);
+  position: relative;
+ left: 160px;
+ z-index: -2;
+}
+
+.tri2{
+  background-color: black;
+  height: 5vh;
+  width: 3%;
+  position: relative;
+  right: 160px;
+  transform: skew(-45deg);
+  z-index: -2;
+}
+}
