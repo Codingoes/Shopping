@@ -13,7 +13,7 @@ import { IconContext } from 'react-icons';
 const Navbar2=()=>{
     return(
         <div className='yellosec-nav2'>
-            <IconContext.Provider value={{size:'1rem',color:'white',padding:'2px 5px'}}>
+            <IconContext.Provider value={{size:'1rem',color:'white'}}>
                <div className='b-menu'><GiHamburgerMenu size='3rem'/></div> 
                 <div className='category'><div>All Categories</div><BiSolidDownArrow size='0.5rem' /></div>
                 <div className='searchbar'>
