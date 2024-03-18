@@ -19,7 +19,7 @@ const Searchdata = () => {
   if (!dataIsLoaded) {
     return (
       <div>
-        <h1>Please wait some time....</h1>
+        <h1 style={{textAlign:"center"}}>Please wait some time....</h1>
       </div>
     );
   }
