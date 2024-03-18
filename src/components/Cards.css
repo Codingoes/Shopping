@@ -19,8 +19,6 @@
   font-weight: bold;
   margin-top: 5%;
   margin: 0 auto;
-
-
 }
 
 .cardprice{
@@ -35,8 +33,6 @@
   /* background-image: url("./images/shirt1.png"); */
   background-size: cover;
   /* background-color: #6a6aff; */
-  height: 15vw;
-  width: 15vw;
   margin: 2vw auto;
 }
 
@@ -58,11 +54,11 @@
   margin-bottom: 20%;
 }
 
-@media (max-width:600px) {
+@media (max-width:900px) {
   .cardgrid {
     display: grid;
     margin: 10px auto;
-    grid-template-columns: 30vw;
+    grid-template-columns: 90vw;
     width: 70%;
     align-items: center;
     text-align: center;
@@ -71,12 +67,67 @@
 
   .card1 {
     /* background-color: blueviolet; */
-    height: 40vh;
-    width: 50vw;
     box-shadow: 0px 5px 5px 2px #242424;
     border-radius: 5px;
-    margin-left: -30%;
-  }
+height: 60vh;
+    background-color: #6a6aff;
   
+  }
+  .cardimage{
+    /* background-image: url("./images/shirt1.png"); */
+    background-size: cover;
+    /* background-color: #6a6aff; */
+    height: 30vw;
+    width: 30vw;
+    margin: 2vw auto;
+  }
+
   
 }
+
+@media (max-width:1066px) {
+  .cardimage{
+    /* background-image: url("./images/shirt1.png"); */
+    background-size: cover;
+    /* background-color: #6a6aff; */
+    height: 200px;
+    width: 200px;
+    margin: 2vw auto;
+  }
+  .card1 {
+    /* background-color: blueviolet; */
+    height: 60vh;
+    box-shadow: 0px 5px 5px 2px #242424;
+    border-radius: 5px;
+  
+  }
+}
+
+
+@media (max-width:2150px) {
+
+  .cardgrid {
+    display: grid;
+    margin: 10px auto;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .card1 {
+    /* background-color: blueviolet; */
+    height: 65vh;
+    box-shadow: 0px 5px 5px 2px #242424;
+    border-radius: 5px;
+  
+  }
+  .cardimage{
+    /* background-image: url("./images/shirt1.png"); */
+    background-size: cover;
+    /* background-color: #6a6aff; */
+    height: 250px;
+    width: 250px;
+    margin: 2vw auto;
+  }
+}
+
