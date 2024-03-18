@@ -20,20 +20,23 @@
     padding: 1% 1%;
     display: flex;
   }
-
-  .search{
-    width: 30vw;
-    background-color: #ffffff;
-  }
-
   .searchbar{
     background-color: white;
     border-radius: 5px;
+    display: flex;
+  }
+  .search{
+    width: 30vw;
+    background-color: #ffffff;
+    border: none;
+  }
+  input:focus{
+    outline: none;
+    border:2px solid #e09200;
   }
 
   .search-i{
     height: 100%;
-    width: 10%;
     padding: 10px;
     background-color: orange;
     float: right;
