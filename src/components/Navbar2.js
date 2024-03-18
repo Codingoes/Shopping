@@ -17,7 +17,9 @@ const Navbar2=()=>{
                <div className='b-menu'><GiHamburgerMenu size='3rem'/></div> 
                 <div className='category'><div>All Categories</div><BiSolidDownArrow size='0.5rem' /></div>
                 <div className='searchbar'>
-                    <div className='search'></div>
+                    
+                    <input className='search' placeholder='Search the product here'></input>
+                        
                     <div className='search-i'><FaSearch /></div>
                 </div>
                <div className='language'><div>English</div><div className='flagpic'></div>
