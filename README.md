@@ -1,3 +1,5 @@
+Hey this is My first React based Shopping Application where i am fetching data from API and showing live in our Website.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
